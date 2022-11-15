@@ -1,64 +1,57 @@
-.exemple-div-1{
-    border: 1px solid black;
-}
-.exemple-div-2{
-    border: 1px solid red;
-}
-
-.exemple-a-1{
-    border: 1px solid red;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.exemple-a-2{
-    border: 1px solid black;
+html {
+  scroll-behavior: smooth;
 }
 
-.exemple-span{
-    border: 1px solid red;
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  background: #f1f1f1;
 }
 
-.exemple-section{
-    border: 1px solid black;
+/* ----------- Header ----------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #1a1a1a;
+  height: 85px;
+  align-items: center;
 }
 
-.div-parente{
-    border: 1px solid red;
-    text-align: center;
+.logo {
+  display: inline;
+  height: 85px;
+  width: auto;
+  color: #fff;
+  font-family: open sans, Arial, Helvetica, sans-serif;
 }
 
-.div-enfant{
-    border: 1px solid black;
-    display: inline-block;
-    width:32%
-
+nav ul {
+  display: flex;
+  list-style-type: none;
 }
 
-.div-parente-flex{
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #a6a6a6;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 40px;
+  /* padding: 40px; */
 }
 
-.div-enfant-flex{
-    border: 1px solid black;
+nav ul li:nth-child(2) {
+  background-color: rgb(126, 217, 87);
 }
 
-h2{
-    color : blue
+nav ul li a:hover {
+  color: #fff;
 }
-
-.red {
-    color: red !important;
-}
-
-h2.titre-h2 {
-    color : green
-}
-
-
-
-#id-h2-1 {
-    color: violet
-}
-
-
