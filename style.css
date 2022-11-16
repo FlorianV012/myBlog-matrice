@@ -46,7 +46,7 @@ nav ul li a {
   text-align: center;
   line-height: 50px;
   margin: 0 40px;
-  /* padding: 40px; */
+  cursor: pointer;
 }
 
 nav ul li:nth-child(2) {
@@ -72,7 +72,7 @@ nav ul li a:hover {
 
 .accueil_titre {
   font-size: 34px;
-  margin: 10px;
+  margin: 10px 0 20px;
 }
 
 .accueil_txt {
@@ -81,6 +81,7 @@ nav ul li a:hover {
 }
 
 .accueil_btn {
+  text-decoration: none;
   font-size: 26px;
   background-color: #fff;
   margin: 20px;
@@ -90,9 +91,10 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-.accueil_btn:hover{
-  color: aquamarine;
-  background-color: beige;
+.accueil_btn:hover {
+  color: #fff;
+  background-color: #000;
+  border: solid 3px #fff;
 }
 
 .chevron::before {
@@ -119,4 +121,51 @@ nav ul li a:hover {
   100% {
     transform: translateY(10%);
   }
+}
+
+/* ----------- Section Prez ----------- */
+
+#prez {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+  background: url("assets/background-blue.png");
+  background-size: 20px 20px;
+}
+
+.prez_titre {
+  font-size: 45px;
+  margin: 40px;
+}
+
+.prez_container {
+  margin: 0 auto 100px;
+  width: 600px;
+  background: #15171a;
+  border-radius: 5px;
+  padding: 10px 0 40px;
+}
+
+.prez_container_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 10px;
+}
+
+.prez_container_top-gauche .dot {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin-right: 5px;
+}
+
+.prez_container_txt {
+  background-color: #000;
+  text-align: left;
+  padding: 5px;
 }
