@@ -113,11 +113,9 @@ nav ul li a:hover {
 }
 
 @keyframes bounce {
-  0%,
-  50% {
+  0% {
     transform: translateY(-15%);
   }
-  50%,
   100% {
     transform: translateY(10%);
   }
@@ -146,6 +144,7 @@ nav ul li a:hover {
   background: #15171a;
   border-radius: 5px;
   padding: 10px 0 40px;
+  box-shadow: 5px 5px 5px #15171a;
 }
 
 .prez_container_top {
@@ -168,4 +167,101 @@ nav ul li a:hover {
   background-color: #000;
   text-align: left;
   padding: 5px;
+}
+
+/* ----------- Section Cours ----------- */
+
+#cours {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+  align-items: center;
+}
+
+.cours_titre {
+  font-size: 70px;
+  margin: 40px;
+}
+
+.cours_sous-titre {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.cours_container {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.cours_carte {
+  display: flex;
+  width: 360px;
+  height: 110px;
+  margin: 20px;
+  padding: 15px 0 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.cours_carte-top::before {
+  content: "cours";
+  position: relative;
+  top: -10px;
+  left: -140px;
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 10px;
+
+  border-radius: 999px;
+}
+
+.cours_carte_corps {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.cours_carte_corps-img {
+  height: 75px;
+  width: auto;
+}
+
+.cours_carte_corps_cont {
+  text-align: left;
+  padding: 10px;
+}
+
+.cours_carte_corps-titre {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.cours_carte_corps-txt {
+  font-size: 12px;
+}
+
+.cours_btn {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2f2f2f;
+  color: #fff;
+  margin: 20px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cours_btn:hover {
+  color: #2f2f2f;
+  background-color: #fff;
+  border: solid 3px #2f2f2f;
 }
