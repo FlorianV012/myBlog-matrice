@@ -108,7 +108,7 @@ nav ul li a:hover {
   margin: 10px 0 30px;
 }
 .chevron {
-  transform: translateY(0);
+  transform: translateY(0px);
   animation: bounce 1s ease-out infinite;
 }
 
@@ -264,4 +264,51 @@ nav ul li a:hover {
   color: #2f2f2f;
   background-color: #fff;
   border: solid 3px #2f2f2f;
+}
+
+/* ----------- Section Ressources ----------- */
+
+#ressources {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+  background: url("assets/background-blue.png");
+  background-size: 30px 30px;
+  padding: 50px;
+}
+
+.ressources_titre {
+  font-size: 70px;
+}
+
+.ressources_txt {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.ressources_container {
+  display: flex;
+  justify-content: center;
+}
+
+.ressources_elem {
+  margin: 0 20px;
+}
+
+.ressources_elem-img {
+  height: 120px;
+  width: auto;
+  color: #fff;
+}
+
+.ressources_elem-titre {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.ressources_elem-txt {
+  font-size: 14px;
 }
