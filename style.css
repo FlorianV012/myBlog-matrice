@@ -29,8 +29,8 @@ header {
   display: inline;
   height: 85px;
   width: auto;
-  color: #fff;
-  font-family: open sans, Arial, Helvetica, sans-serif;
+  /* color: #fff;
+  font-family: open sans, Arial, Helvetica, sans-serif; */
 }
 
 nav ul {
@@ -365,4 +365,91 @@ nav ul li a:hover {
 .blog_txt-ita {
   font-size: 14px;
   font-style: italic;
+}
+
+/* ----------- Footer ----------- */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #1a1a1a;
+  padding: 30px 10px 20px;
+}
+
+.footer_logo {
+  display: inline;
+  height: 200px;
+  width: auto;
+  /* color: #fff;
+  font-family: open sans, Arial, Helvetica, sans-serif; */
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  padding: 5px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+.footer_copy {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer_liens {
+  margin-bottom: 30px;
+}
+/* .footer_media{}
+
+.footer_media_soc{} */
+
+.footer_newsletter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.footer_newsletter label {
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer_newsletter-input {
+  height: 35px;
+  width: 190px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+}
+
+.footer_newsletter-btn {
+  text-decoration: none;
+  font-size: 26px;
+  background-color: #ad97ef;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer_newsletter-btn:hover {
+  color: #ad97ef;
+  background-color: #fff;
 }
