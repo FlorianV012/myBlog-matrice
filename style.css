@@ -36,6 +36,7 @@ header {
 nav ul {
   display: flex;
   list-style-type: none;
+  margin-left: 80px;
 }
 
 nav ul li a {
@@ -54,4 +55,68 @@ nav ul li:nth-child(2) {
 
 nav ul li a:hover {
   color: #fff;
+}
+
+/* ----------- Section Accueil ----------- */
+
+#accueil {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.accueil_logo {
+  height: 150px;
+  margin: 10px;
+}
+
+.accueil_titre {
+  font-size: 34px;
+  margin: 10px;
+}
+
+.accueil_txt {
+  font-size: 26px;
+  margin: 10px;
+}
+
+.accueil_btn {
+  font-size: 26px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.accueil_btn:hover{
+  color: aquamarine;
+  background-color: beige;
+}
+
+.chevron::before {
+  content: "";
+  display: inline-block;
+  border-style: solid;
+  height: 45px;
+  width: 45px;
+  border-width: 10px 10px 0 0;
+  transform: rotate(135deg);
+  margin: 10px 0 30px;
+}
+.chevron {
+  transform: translateY(0);
+  animation: bounce 1s ease-out infinite;
+}
+
+@keyframes bounce {
+  0%,
+  50% {
+    transform: translateY(-15%);
+  }
+  50%,
+  100% {
+    transform: translateY(10%);
+  }
 }
