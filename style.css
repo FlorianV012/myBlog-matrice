@@ -121,6 +121,24 @@ nav ul li a:hover {
   }
 }
 
+.message {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.message i {
+  line-height: 80px;
+  font-size: 45px;
+  transform: rotate(25deg);
+}
+
 /* ----------- Section Prez ----------- */
 
 #prez {
@@ -295,6 +313,7 @@ nav ul li a:hover {
 
 .ressources_elem {
   margin: 0 20px;
+  filter: brightness(0) invert(1);
 }
 
 .ressources_elem-img {
@@ -330,6 +349,7 @@ nav ul li a:hover {
 .blog_logo {
   height: 80px;
   width: auto;
+  filter: brightness(0) invert(1);
 }
 
 .slider {
@@ -381,8 +401,6 @@ footer {
   display: inline;
   height: 200px;
   width: auto;
-  /* color: #fff;
-  font-family: open sans, Arial, Helvetica, sans-serif; */
 }
 
 footer ul {
@@ -412,9 +430,12 @@ footer ul li a:hover {
 .footer_liens {
   margin-bottom: 30px;
 }
-/* .footer_media{}
+/* .footer_media{}*/
 
-.footer_media_soc{} */
+.footer_media_soc img {
+  height: 50px;
+  margin: 0 10px 10px;
+}
 
 .footer_newsletter {
   display: flex;
