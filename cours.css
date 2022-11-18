@@ -1,0 +1,40 @@
+#offre {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgreen;
+  padding: 30px;
+  background: url("assets/background-green.jpeg");
+  align-items: center;
+}
+
+.offre_titre {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.offre_txt {
+  margin-bottom: 10px;
+}
+
+.offre_gauche_btn {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  margin-top: 10px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.offre_gauche_btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.offre_droite img {
+  height: 400px;
+  width: auto;
+}

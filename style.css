@@ -131,6 +131,7 @@ nav ul li a:hover {
   height: 80px;
   width: 80px;
   border-radius: 50%;
+  text-align: center;
 }
 
 .message i {
