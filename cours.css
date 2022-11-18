@@ -38,3 +38,77 @@
   height: 400px;
   width: auto;
 }
+
+/* ---------- Section Cours dispo ---------- */
+
+.cours_dispo {
+  text-align: center;
+}
+
+.cours_dispo_titre {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.cours_dispo_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cours_dispo_carte {
+  display: block;
+  width: 290px;
+  height: 440px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.selected {
+  box-sizing: content-box;
+  border: solid 8px green;
+}
+
+.cours_dispo_carte img {
+  width: 290px;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.carte_cont {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: space-around;
+}
+
+.carte_titre {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.carte_sous-titre {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.carte_txt {
+  line-height: 25px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+.carte_btn {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
