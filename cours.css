@@ -65,7 +65,7 @@
   margin: 20px;
 }
 
-.selected {
+.cours_dispo_carte.selected {
   box-sizing: content-box;
   border: solid 8px green;
 }
@@ -111,4 +111,9 @@
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
+}
+
+.cours_selected {
+  margin: 30px;
+  font-size: 30px;
 }
