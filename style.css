@@ -107,7 +107,7 @@ nav ul li a:hover {
   transform: rotate(135deg);
   margin: 10px 0 30px;
 }
-.chevron {
+.chevron.bas {
   transform: translateY(0px);
   animation: bounce 1s ease-out infinite;
 }
@@ -317,7 +317,7 @@ nav ul li a:hover {
   filter: brightness(0) invert(1);
 }
 
-.ressources_elem:hover{
+.ressources_elem:hover {
   transform: translate(5px, 5px);
 }
 
@@ -358,11 +358,27 @@ nav ul li a:hover {
 }
 
 .slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 50px;
 }
 
+.gauche.chevron::before {
+  transform: rotate(225deg);
+}
+
+.droit.chevron::before {
+  transform: rotate(45deg);
+}
+
 .slider_img {
+  display: none;
   margin: 0 15px;
+}
+
+.slider_img.active {
+  display: block;
 }
 
 .blog_txt {
