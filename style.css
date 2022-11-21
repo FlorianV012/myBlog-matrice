@@ -366,10 +366,12 @@ nav ul li a:hover {
 
 .gauche.chevron::before {
   transform: rotate(225deg);
+  cursor: pointer;
 }
 
 .droit.chevron::before {
   transform: rotate(45deg);
+  cursor: pointer;
 }
 
 .slider_img {

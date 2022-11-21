@@ -1,3 +1,13 @@
+// fenetre login
+let btnLogin = document.getElementsByClassName("login_btn")[0];
+let modale = document.getElementsByClassName("modale")[0];
+
+console.log(btnLogin);
+
+btnLogin.addEventListener("click", () => {
+  modale.classList.toggle("active");
+});
+
 // Page Cours
 
 let cartes = document.getElementsByClassName("cours_dispo_carte");
